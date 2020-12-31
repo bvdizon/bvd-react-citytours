@@ -1,0 +1,29 @@
+.tour {
+    margin-bottom: 50px;
+}
+
+.img-container {
+    position: relative;
+
+    img {
+        width: 100%;
+    }
+
+    i {
+        position: absolute;
+        top: 5%;
+        right: 2.5%;
+        display: none;
+        cursor: pointer;
+        color: #4CAF50;
+    }
+
+    &:hover i {
+        display: block;
+    }
+}
+
+.fa.fa-plus-circle,
+.fa.fa-minus-circle {
+    color: #4CAF50;
+}
